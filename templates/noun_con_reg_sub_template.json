@@ -1,0 +1,53 @@
+{
+    "continent": [
+        "Which dish is popular in the continent of [continent]?",
+        "What is a must-try street food from [continent]?",
+        "How does cuisine from [continent] compare to other continents?",
+        "Which country in [continent] has the most famous cuisine?",
+        "Which holiday foods are common in [continent]?"
+    ],
+    "region": [
+        "Which dish is well-known in the region of [region]?",
+        "Which foods define the cuisine of [region]?",
+        "What is a traditional way of cooking in [region]?",
+        "Which countries make up the [region] region?",
+        "Are there any fusion dishes from [region]?"
+    ],
+    "sub_region": [
+        "Which dish is native to the country of [sub-region]?",
+        "What type of bread or rice is commonly eaten in [sub-region]?",
+        "Which drink is unique to [sub-region]?",
+        "What are some key ingredients in dishes from [sub-region]?",
+        "How does food from [sub-region] differ from neighboring areas?"
+    ],
+    "continent_region": [
+        "What is a well-loved dish from [region] in [continent]?",
+        "What is a famous comfort food from [region] in [continent]?",
+        "What street foods are popular in [region] of [continent]?",
+        "Which cooking techniques are unique to [region] in [continent]?",
+        "What role does climate play in shaping food from [region] in [continent]?"
+    ],
+    "continent_sub_region": [
+        "Which dish from [sub-region] in [continent] is considered the most iconic?",
+        "What are the key differences between [sub-region] and other parts of [continent] in terms of cuisine?",
+        "What are some popular snacks from [sub-region] in [continent]?",
+        "What influence does [continent] have on the food of [sub-region]?",
+        "What is a common breakfast in [sub-region] in [continent]?",
+        "What is a festive dish from [sub-region] in [continent]?"
+    ],
+    "region_sub_region": [
+        "Which dish from [sub-region] in [region] is the most famous?",
+        "What are the main differences in food between [sub-region] and the rest of [region]?",
+        "How does [sub-region] cuisine compare to neighboring sub-regions within [region]?",
+        "What cooking methods are most used in [sub-region] in [region]?",
+        "What is a beloved street food from [sub-region] in [region]?",
+        "How does the geography of [sub-region] affect its food culture in [region]?"
+    ],
+    "all_three": [
+        "What is a signature dish from [sub-region] in [region] in [continent]?",
+        "What cooking styles are unique to [sub-region] in [region] on [continent]?",
+        "Which staple foods are eaten in [sub-region] in [region] of [continent]?",
+        "Which fusion dishes originated in [sub-region] within [region] in [continent]?",
+        "What is a ceremonial dish from [sub-region] in [region] in [continent]?"
+    ]
+}

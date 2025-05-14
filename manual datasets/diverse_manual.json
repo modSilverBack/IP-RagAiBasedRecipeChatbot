@@ -1,0 +1,787 @@
+[
+    {
+        "text": "Which recipes from Nepal use rajma?",
+        "entities": [
+            {
+                "entity": "Nepal",
+                "label": "sub-region"
+            },
+            {
+                "entity": "rajma",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Can you explain the difference between baking and frying in cooking chips?",
+        "entities": [
+            {
+                "entity": "chips",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "baking",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "frying",
+                "label": "cooking-process"
+            }
+        ]
+    },
+    {
+        "text": "Are there any Caribbean recipes that avoid using coconut?",
+        "entities": [
+            {
+                "entity": "Caribbean",
+                "label": "region"
+            },
+            {
+                "entity": "coconut",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "Which traditional South American dishes contain quinoa?",
+        "entities": [
+            {
+                "entity": "South American",
+                "label": "continent"
+            },
+            {
+                "entity": "quinoa",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "What is the typical energy range of an Indian thali?",
+        "entities": [
+            {
+                "entity": "thali",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "Indian",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "Which cooking method retains more protein: grilling or boiling steak?",
+        "entities": [
+            {
+                "entity": "grilling",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "boiling",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "steak",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Does a Mediterranean diet include feta cheese?",
+        "entities": [
+            {
+                "entity": "Mediterranean",
+                "label": "region"
+            },
+            {
+                "entity": "feta cheese",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Which Southeast Asian dishes exclude peanuts?",
+        "entities": [
+            {
+                "entity": "Southeast Asian",
+                "label": "region"
+            },
+            {
+                "entity": "peanuts",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "What is the best utensil for flipping pancakes?",
+        "entities": [
+            {
+                "entity": "pancakes",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "fliping",
+                "label": "cooking-process"
+            }
+        ]
+    },
+    {
+        "text": "Is pasta Alfredo higher in fat than sushi?",
+        "entities": [
+            {
+                "entity": "Pasta Alfredo",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "sushi",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "How many grams of carbohydrates are there in a typical roti?",
+        "entities": [
+            {
+                "entity": "roti",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which African cuisines primarily use millet?",
+        "entities": [
+            {
+                "entity": "African",
+                "label": "continent"
+            },
+            {
+                "entity": "millet",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Does Rajma Chawal have more calories than Pulao?",
+        "entities": [
+            {
+                "entity": "Rajma Chawal",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "Pulao",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which Indian snacks contain the least amount of fat?",
+        "entities": [
+            {
+                "entity": "Indian",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "Are there any low-carb desserts from Italy?",
+        "entities": [
+            {
+                "entity": "Italy",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "What type of cuisine does Paella belong to?",
+        "entities": [
+            {
+                "entity": "Paella",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which European country is famous for Goulash?",
+        "entities": [
+            {   "entity": "European",
+                "label": "continent"
+            },
+            {
+                "entity": "Goulash",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which diet-friendly salads have fewer than 10g of fat?",
+        "entities": [
+            {
+                "entity": "salads",
+                "label": "recipe-title"
+            },
+            {   "entity": "10g",
+                "label": "fat-max"
+            }
+        ]
+    },
+    {
+        "text": "Does a traditional Japanese breakfast include miso soup?",
+        "entities": [
+            {
+                "entity": "Japanese",
+                "label": "sub-region"
+            },
+            {
+                "entity": "miso soup",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Is Vietnamese pho typically high in protein?",
+        "entities": [
+            {
+                "entity": "Pho",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "Vietnamese",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "Which French desserts are made without butter?",
+        "entities": [
+            {
+                "entity": "Franch",
+                "label": "sub-region"
+            },
+            {
+                "entity": "butter",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "What are some protein-rich dishes from South Asia?",
+        "entities": [
+            {
+                "entity": "South Asia",
+                "label": "region"
+            }
+        ]
+    },
+    {
+        "text": "How much fat is in a traditional Greek salad?",
+        "entities": [
+            {
+                "entity": "Greek salad",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "What utensils are needed to prepare sushi?",
+        "entities": [
+            {
+                "entity": "sushi",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which Southeast Asian dishes use coconut milk?",
+        "entities": [
+            {
+                "entity": "Southeast Asian",
+                "label": "region"
+            },
+            {
+                "entity": "coconut milk",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "What is the carbohydrate content of a traditional naan?",
+        "entities": [
+            {
+                "entity": "naan",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Can you recommend a Mexican dish without beans?",
+        "entities": [
+            {
+                "entity": "Mexican",
+                "label": "sub-region"
+            },
+            {
+                "entity": "beans",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "Is steaming better than deep-frying for making dumplings?",
+        "entities": [
+            {
+                "entity": "steaming",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "deep-frying",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "dumplings",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which utensils are commonly used for grilling meat?",
+        "entities": [
+            {
+                "entity": "meat",
+                "label": "ingredient-used"
+            },
+            {
+                "entity": "grilling",
+                "label": "cooking-process"
+            }
+        ]
+    },
+    {
+        "text": "Does an authentic Neapolitan pizza use mozzarella di bufala?",
+        "entities": [
+            {
+                "entity": "Neapolitan pizza",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "mozzarella di bufala",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Are there any European dishes that do not use wheat?",
+        "entities": [
+            {
+                "entity": "European",
+                "label": "continent"
+            },
+            {
+                "entity": "wheat",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "Which high-energy African dishes are recommended for athletes?",
+        "entities": [
+            {
+                "entity": "African",
+                "label": "continent"
+            }
+        ]
+    },
+    {
+        "text": "What is the protein content of an average burrito?",
+        "entities": [
+            {
+                "entity": "burrito",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which Thai curries are traditionally vegan?",
+        "entities": [
+            {
+                "entity": "Thai",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "What is the fat content of classic butter chicken?",
+        "entities": [
+            {
+                "entity": "butter chicken",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which Japanese dishes contain matcha?",
+        "entities": [
+            {
+                "entity": "Japanese",
+                "label": "sub-region"
+            },
+            {
+                "entity": "matcha",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Are there any low-carb options in Middle Eastern cuisine?",
+        "entities": [
+            {
+                "entity": "Middle Eastern",
+                "label": "region"
+            }
+        ]
+    },
+    {
+        "text": "What is the energy content of a slice of cheesecake?",
+        "entities": [
+            {
+                "entity": "cheesecake",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Can you make sushi without seaweed?",
+        "entities": [
+            {
+                "entity": "sushi",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "seaweed",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "What is the healthiest way to cook salmon?",
+        "entities": [
+            {
+                "entity": "salmon",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which Mediterranean dishes use olive oil as a main ingredient?",
+        "entities": [
+            {
+                "entity": "Mediterranean",
+                "label": "region"
+            },
+            {
+                "entity": "olive oil",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Which Indian desserts contain saffron?",
+        "entities": [
+            {
+                "entity": "Indian",
+                "label": "sub-region"
+            },
+            {
+                "entity": "saffron",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Are there any gluten-free Italian pastas?",
+        "entities": [
+            {
+                "entity": "Italian",
+                "label": "sub-region"
+            },
+            {
+                "entity": "gluten",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "Which Caribbean dishes are known for being spicy?",
+        "entities": [
+            {
+                "entity": "Caribbean",
+                "label": "region"
+            }
+        ]
+    },
+    {
+        "text": "Are there any European dishes without dairy?",
+        "entities": [
+            {
+                "entity": "European",
+                "label": "continent"
+            },
+            {
+                "entity": "dairy",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "How do you traditionally cook paella?",
+        "entities": [
+            {
+                "entity": "paella",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "What's the difference between poaching and boiling eggs?",
+        "entities": [
+            {
+                "entity": "poaching",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "boiling",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "eggs",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Which regions use cardamom as a staple spice?",
+        "entities": [
+            {
+                "entity": "cardamom",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Can you make hummus without chickpeas?",
+        "entities": [
+            {
+                "entity": "hummus",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "chickpeas",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "Is baking healthier than frying?",
+        "entities": [
+            {
+                "entity": "baking",
+                "label": "cooking-process"
+            },
+            {
+                "entity": "frying",
+                "label": "cooking-process"
+            }
+        ]
+    },
+    {
+        "text": "Which Middle Eastern foods contain tahini?",
+        "entities": [
+            {
+                "entity": "Middle Eastern",
+                "label": "region"
+            },
+            {
+                "entity": "tahini",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "What's the traditional method of making kimchi?",
+        "entities": [
+            {
+                "entity": "kimchi",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Are there any Indian dishes that don't use turmeric?",
+        "entities": [
+            {
+                "entity": "Indian",
+                "label": "sub-region"
+            },
+            {
+                "entity": "turmeric",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "How many calories are in a traditional shepherd's pie?",
+        "entities": [
+            {
+                "entity": "shepherd's pie",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Can I replace butter with olive oil in croissants?",
+        "entities": [
+            {
+                "entity": "butter",
+                "label": "ingredient_not_used"
+            },
+            {
+                "entity": "olive oil",
+                "label": "ingredient-used"
+            },
+            {
+                "entity": "croissants",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "What's a common dessert from Argentina?",
+        "entities": [
+            {
+                "entity": "Argentina",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "Do most East Asian soups include soy sauce?",
+        "entities": [
+            {
+                "entity": "East Asian",
+                "label": "region"
+            },
+            {
+                "entity": "soy sauce",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "What cooking methods work best for salmon?",
+        "entities": [
+            {
+                "entity": "salmon",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "Which traditional Ethiopian dishes are vegetarian?",
+        "entities": [
+            {
+                "entity": "Ethiopian",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "Which Japanese foods are eaten raw?",
+        "entities": [
+            {
+                "entity": "Japanese",
+                "label": "sub-region"
+            }
+        ]
+    },
+    {
+        "text": "What's a common ingredient in Moroccan stews?",
+        "entities": [
+            {
+                "entity": "Moroccan",
+                "label": "sub-region"
+            },
+            {
+                "entity": "stews",
+                "label": "recipe-title"
+            }
+        ]
+    },
+    {
+        "text": "How do I properly use a wok for stir-frying?",
+        "entities": [
+            {
+                "entity": "wok",
+                "label": "utensil"
+            },
+            {
+                "entity": "stir-frying",
+                "label": "cooking-process"
+            }
+        ]
+    },
+    {
+        "text": "Can I make risotto without using cheese?",
+        "entities": [
+            {
+                "entity": "risotto",
+                "label": "recipe-title"
+            },
+            {
+                "entity": "cheese",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "Which Italian pastas are gluten-free?",
+        "entities": [
+            {
+                "entity": "Italian",
+                "label": "sub-region"
+            },
+            {
+                "entity": "gluten",
+                "label": "ingredient_not_used"
+            }
+        ]
+    },
+    {
+        "text": "What's the healthiest way to cook vegetables?",
+        "entities": [
+            {
+                "entity": "vegetables",
+                "label": "ingredient-used"
+            }
+        ]
+    },
+    {
+        "text": "Do African cuisines include fermented foods?",
+        "entities": [
+            {
+                "entity": "African",
+                "label": "continent"
+            },
+            {
+                "entity": "fermented",
+                "label": "cooking-process"
+            }
+        ]
+    },
+    {
+        "text": "How much protein is in a tofu stir-fry?",
+        "entities": [
+            {
+                "entity": "tofu stir-fry",
+                "label": "recipe-title"
+            }
+        ]
+    }
+]

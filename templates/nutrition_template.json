@@ -1,0 +1,104 @@
+{
+  "protein_min": [
+    "Suggest a meal that contains at least [protein_min] grams of protein.",
+    "Find a dish with a minimum of [protein_min] gms of protein.",
+    "Which recipes provide no less than [protein_min] g of protein?",
+    "Show me a high-protein meal with at least [protein_min] gms.",
+    "I need a dish that has [protein_min] grams or more of protein."
+  ],
+  "protein_max": [
+    "Suggest a dish with no more than [protein_max] g of protein.",
+    "Find a meal that keeps protein under [protein_max] grams.",
+    "Which recipes limit protein to [protein_max] gms at most?",
+    "Show me a low-protein dish with a max of [protein_max] grams.",
+    "I want a recipe where protein does not exceed [protein_max] g."
+  ],
+  "energy_min": [
+    "Recommend a dish that has at least [energy_min] calories.",
+    "Find a meal with an energy content of at least [energy_min] cal.",
+    "Show me a high-energy dish with no less than [energy_min] calories.",
+    "List recipes that provide a minimum of [energy_min] cals.",
+    "Which dishes have at least [energy_min] cals for energy?"
+  ],
+  "energy_max": [
+    "Suggest a meal that has no more than [energy_max] cal.",
+    "Find a dish where the energy content does not exceed [energy_max] calories.",
+    "Show me a low-calorie recipe under [energy_max] cals.",
+    "Which meals offer an energy limit of [energy_max] calories?",
+    "List dishes that keep energy below [energy_max] cals."
+  ],
+  "carbohydrates_min": [
+    "Find a dish with at least [carbohydrates_min] grams of carbohydrates.",
+    "Which meals provide no less than [carbohydrates_min] gms of carbs?",
+    "Show me a recipe with a carbohydrate content of at least [carbohydrates_min] g.",
+    "Suggest a dish that ensures a minimum of [carbohydrates_min] grams of carbs.",
+    "I need a meal that contains [carbohydrates_min] gms or more of carbohydrates."
+  ],
+  "carbohydrates_max": [
+    "Suggest a meal with no more than [carbohydrates_max] g of carbohydrates.",
+    "Find a dish that limits carbs to [carbohydrates_max] grams or less.",
+    "Which meals offer a carbohydrate content of at most [carbohydrates_max] gms?",
+    "Show me a low-carb dish with a max of [carbohydrates_max] grams.",
+    "I need a recipe where carbohydrates do not exceed [carbohydrates_max] gms."
+  ],
+  "fat_min": [
+    "Find a dish that contains at least [fat_min] g of fat.",
+    "Suggest a meal with a minimum of [fat_min] grams of fat.",
+    "Which meals provide no less than [fat_min] gms of fat?",
+    "Show me a high-fat dish with at least [fat_min] grams of fat.",
+    "List dishes that contain [fat_min] g or more of fat."
+  ],
+  "fat_max": [
+    "Recommend a dish with no more than [fat_max] grams of fat.",
+    "Find a low-fat meal where fat does not exceed [fat_max] gms.",
+    "Which recipes keep fat under [fat_max] g?",
+    "Show me a dish that limits fat to a maximum of [fat_max] grams.",
+    "I want a meal where fat content is capped at [fat_max] gms."
+  ],
+  "energy_min_energy_max_combined": [
+    "Find a dish with an energy range between [energy_min] and [energy_max] cal.",
+    "Which meals have an energy content from [energy_min] cals to [energy_max] cals?",
+    "Show me a recipe where energy is at least [energy_min] calories but no more than [energy_max] cal.",
+    "List dishes with an energy value falling between [energy_min] and [energy_max] cal.",
+    "Give me a meal that provides between [energy_min] and [energy_max] calories."
+  ],
+  "protein_min_protein_max_combined": [
+    "Suggest a dish that has between [protein_min] and [protein_max] grams of protein.",
+    "Find a recipe where protein content is between [protein_min] gms and [protein_max] gms.",
+    "Which meals contain a protein range of [protein_min] to [protein_max] grams?",
+    "Show me a dish with protein content no less than [protein_min] g and no more than [protein_max] grams.",
+    "I need a meal with protein falling between [protein_min] and [protein_max] gms."
+  ],
+  "carbohydrates_min_carbohydrates_max_combined": [
+    "Find a dish with carbohydrates between [carbohydrates_min] g and [carbohydrates_max] g.",
+    "Suggest a meal where carbs range from [carbohydrates_min] grams to [carbohydrates_max] grams.",
+    "Which recipes have a carbohydrate content between [carbohydrates_min] gms and [carbohydrates_max] gms?",
+    "Show me a meal where carbohydrates fall within [carbohydrates_min] grams and [carbohydrates_max] g.",
+    "I need a dish that contains carbohydrates between [carbohydrates_min] g and [carbohydrates_max] grams."
+  ],
+  "fat_min_fat_max_combined": [
+    "Give me a dish with fat content between [fat_min] g and [fat_max] g.",
+    "Suggest a meal where fat ranges from [fat_min] grams to [fat_max] grams.",
+    "Find a recipe that keeps fat between [fat_min] gms and [fat_max] gms.",
+    "Which meals provide fat between [fat_min] grams and [fat_max] g?",
+    "I need a dish where fat falls in the range of [fat_min] g to [fat_max] grams."
+  ],
+  "all_nutrition_combined": [
+    "Find a dish with at least [protein_min] grams protein and no more than [energy_max] calories energy.",
+    "Suggest a meal where carbohydrates are at least [carbohydrates_min] g while fat does not exceed [fat_max] grams.",
+    "Show me a recipe with energy between [energy_min] cals and [energy_max] calories while ensuring protein is at least [protein_min] grams.",
+    "Which meal provides at least [protein_min] grams of protein and a carbohydrate level below [carbohydrates_max] gms?",
+    "I need a dish with at most [fat_max] grams of fat and at least [carbohydrates_min] grams of carbohydrates.",
+    "List recipes where protein is between [protein_min] grams and [protein_max] g while fat is under [fat_max] gms.",
+    "Find a meal that provides at least [energy_min] cals and ensures protein remains below [protein_max] g.",
+    "Suggest a dish that contains at least [fat_min] grams of fat while keeping carbohydrates under [carbohydrates_max] g.",
+    "Show me a dish that has energy between [energy_min] and [energy_max] cals while keeping fat no more than [fat_max] grams.",
+    "Which recipes ensure a carbohydrate range of [carbohydrates_min] to [carbohydrates_max] grams while keeping energy below [energy_max] cal?",
+    "Give me a dish where protein is at least [protein_min] grams and energy is no more than [energy_max] cals.",
+    "List a recipe that contains at least [carbohydrates_min] grams carbohydrates while keeping fat between [fat_min] gms and [fat_max] grams.",
+    "Show me a dish with protein between [protein_min] and [protein_max] grams while energy remains under [energy_max] cal.",
+    "Find a meal where energy is between [energy_min] and [energy_max] calories and carbohydrates are at most [carbohydrates_max] grams.",
+    "Which recipes provide at least [fat_min] grams fat while ensuring protein remains between [protein_min] grams and [protein_max] gms?",
+    "Give me a meal that contains no more than [fat_max] grams of fat while ensuring energy is at least [energy_min] calories."
+  ]
+}

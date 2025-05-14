@@ -1,0 +1,405 @@
+[
+  {
+      "text": "For accurate measurements, use a measuring cup.",
+      "entities": [
+          {"entity": "measuring cup", "label": "utensil"}
+      ]
+  },
+  {
+      "text": "Dice the vegetables uniformly using a chef's knife.",
+      "entities": [
+          {"entity": "chef's knife", "label": "utensil"},
+          {"entity": "Dice", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Whisk the eggs vigorously with a whisk.",
+      "entities": [
+          {"entity": "whisk", "label": "utensil"},
+          {"entity": "Whisk", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Spread the frosting evenly using a spatula.",
+      "entities": [
+          {"entity": "spatula", "label": "utensil"},
+          {"entity": "Spread", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Peel the potatoes carefully with a vegetable peeler.",
+      "entities": [
+          {"entity": "vegetable peeler", "label": "utensil"},
+          {"entity": "Peel", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Grate the cheese finely using a grater.",
+      "entities": [
+          {"entity": "grater", "label": "utensil"},
+          {"entity": "Grate", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Blend the smoothie perfectly with an immersion blender.",
+      "entities": [
+          {"entity": "immersion blender", "label": "utensil"},
+          {"entity": "Blend", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Mix the batter thoroughly using a stand mixer.",
+      "entities": [
+          {"entity": "stand mixer", "label": "utensil"},
+          {"entity": "Mix", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Fold the dough gently using a dough scraper.",
+      "entities": [
+          {"entity": "dough scraper", "label": "utensil"},
+          {"entity": "Fold", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Pour the sauce steadily with a ladle.",
+      "entities": [
+          {"entity": "ladle", "label": "utensil"},
+          {"entity": "Pour", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Protect your hands by using oven mitts when handling hot pans.",
+      "entities": [
+          {"entity": "oven mitts", "label": "utensil"}
+      ]
+  },
+  {
+      "text": "Toss the salad neatly with salad tongs.",
+      "entities": [
+          {"entity": "salad tongs", "label": "utensil"},
+          {"entity": "Toss", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Sift the flour properly using a sieve.",
+      "entities": [
+          {"entity": "sieve", "label": "utensil"},
+          {"entity": "Sift", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Strain the broth using a strainer.",
+      "entities": [
+          {"entity": "strainer", "label": "utensil"},
+          {"entity": "Strain", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Chop the herbs finely using a herb chopper.",
+      "entities": [
+          {"entity": "herb chopper", "label": "utensil"},
+          {"entity": "Chop", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Crush the spices with a mortar and pestle.",
+      "entities": [
+          {"entity": "mortar and pestle", "label": "utensil"},
+          {"entity": "Crush", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Grind the coffee beans with a coffee grinder.",
+      "entities": [
+          {"entity": "coffee grinder", "label": "utensil"},
+          {"entity": "Grind", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Blend the vegetables into a smooth puree using a blender.",
+      "entities": [
+          {"entity": "blender", "label": "utensil"},
+          {"entity": "Blend", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Process the ingredients quickly with a food processor.",
+      "entities": [
+          {"entity": "food processor", "label": "utensil"},
+          {"entity": "Process", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Serve the dish elegantly with a serving spoon.",
+      "entities": [
+          {"entity": "serving spoon", "label": "utensil"},
+          {"entity": "Serve", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Roll out fresh pasta dough using a pasta machine.",
+      "entities": [
+          {"entity": "pasta machine", "label": "utensil"},
+          {"entity": "Roll", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Slice the cake evenly with a cake slicer.",
+      "entities": [
+          {"entity": "cake slicer", "label": "utensil"},
+          {"entity": "Slice", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Separate egg yolks from whites using an egg separator.",
+      "entities": [
+          {"entity": "egg separator", "label": "utensil"},
+          {"entity": "Separate", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Stir the soup gently with a wooden spoon.",
+      "entities": [
+          {"entity": "wooden spoon", "label": "utensil"},
+          {"entity": "Stir", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Flip the pancake carefully using a spatula.",
+      "entities": [
+          {"entity": "spatula", "label": "utensil"},
+          {"entity": "Flip", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Skim the foam off the soup with a skimmer.",
+      "entities": [
+          {"entity": "skimmer", "label": "utensil"},
+          {"entity": "Skim", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Turn the meat on the grill using grill tongs.",
+      "entities": [
+          {"entity": "grill tongs", "label": "utensil"},
+          {"entity": "Turn", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Measure small amounts of spices using measuring spoons.",
+      "entities": [
+          {"entity": "measuring spoons", "label": "utensil"},
+          {"entity": "Measure", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Trim the pastry edges with a pastry cutter.",
+      "entities": [
+          {"entity": "pastry cutter", "label": "utensil"},
+          {"entity": "Trim", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "For accurate measurements, use a measuring cup.",
+      "entities": [
+          {"entity": "measuring cup", "label": "utensil"}
+      ]
+  },
+  {
+      "text": "Dice the vegetables uniformly using a chef's knife.",
+      "entities": [
+          {"entity": "chef's knife", "label": "utensil"},
+          {"entity": "Dice", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Whisk the eggs vigorously with a whisk.",
+      "entities": [
+          {"entity": "whisk", "label": "utensil"},
+          {"entity": "Whisk", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Spread the frosting evenly using a spatula.",
+      "entities": [
+          {"entity": "spatula", "label": "utensil"},
+          {"entity": "Spread", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Peel the potatoes carefully with a vegetable peeler.",
+      "entities": [
+          {"entity": "vegetable peeler", "label": "utensil"},
+          {"entity": "Peel", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Grate the cheese finely using a grater.",
+      "entities": [
+          {"entity": "grater", "label": "utensil"},
+          {"entity": "Grate", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Blend the smoothie perfectly with an immersion blender.",
+      "entities": [
+          {"entity": "immersion blender", "label": "utensil"},
+          {"entity": "Blend", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Mix the batter thoroughly using a stand mixer.",
+      "entities": [
+          {"entity": "stand mixer", "label": "utensil"},
+          {"entity": "Mix", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Fold the dough gently using a dough scraper.",
+      "entities": [
+          {"entity": "dough scraper", "label": "utensil"},
+          {"entity": "Fold", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Pour the sauce steadily with a ladle.",
+      "entities": [
+          {"entity": "ladle", "label": "utensil"},
+          {"entity": "Pour", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Protect your hands by using oven mitts when handling hot pans.",
+      "entities": [
+          {"entity": "oven mitts", "label": "utensil"}
+      ]
+  },
+  {
+      "text": "Toss the salad neatly with salad tongs.",
+      "entities": [
+          {"entity": "salad tongs", "label": "utensil"},
+          {"entity": "Toss", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Sift the flour properly using a sieve.",
+      "entities": [
+          {"entity": "sieve", "label": "utensil"},
+          {"entity": "Sift", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Strain the broth using a strainer.",
+      "entities": [
+          {"entity": "strainer", "label": "utensil"},
+          {"entity": "Strain", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Chop the herbs finely using a herb chopper.",
+      "entities": [
+          {"entity": "herb chopper", "label": "utensil"},
+          {"entity": "Chop", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Crush the spices with a mortar and pestle.",
+      "entities": [
+          {"entity": "mortar and pestle", "label": "utensil"},
+          {"entity": "Crush", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Grind the coffee beans with a coffee grinder.",
+      "entities": [
+          {"entity": "coffee grinder", "label": "utensil"},
+          {"entity": "Grind", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Blend the vegetables into a smooth puree using a blender.",
+      "entities": [
+          {"entity": "blender", "label": "utensil"},
+          {"entity": "Blend", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Process the ingredients quickly with a food processor.",
+      "entities": [
+          {"entity": "food processor", "label": "utensil"},
+          {"entity": "Process", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Serve the dish elegantly with a serving spoon.",
+      "entities": [
+          {"entity": "serving spoon", "label": "utensil"},
+          {"entity": "Serve", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Roll out fresh pasta dough using a pasta machine.",
+      "entities": [
+          {"entity": "pasta machine", "label": "utensil"},
+          {"entity": "Roll", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Slice the cake evenly with a cake slicer.",
+      "entities": [
+          {"entity": "cake slicer", "label": "utensil"},
+          {"entity": "Slice", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Separate egg yolks from whites using an egg separator.",
+      "entities": [
+          {"entity": "egg separator", "label": "utensil"},
+          {"entity": "Separate", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Stir the soup gently with a wooden spoon.",
+      "entities": [
+          {"entity": "wooden spoon", "label": "utensil"},
+          {"entity": "Stir", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Flip the pancake carefully using a spatula.",
+      "entities": [
+          {"entity": "spatula", "label": "utensil"},
+          {"entity": "Flip", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Skim the foam off the soup with a skimmer.",
+      "entities": [
+          {"entity": "skimmer", "label": "utensil"},
+          {"entity": "Skim", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Turn the meat on the grill using grill tongs.",
+      "entities": [
+          {"entity": "grill tongs", "label": "utensil"},
+          {"entity": "Turn", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Measure small amounts of spices using measuring spoons.",
+      "entities": [
+          {"entity": "measuring spoons", "label": "utensil"},
+          {"entity": "Measure", "label": "cooking-process"}
+      ]
+  },
+  {
+      "text": "Trim the pastry edges with a pastry cutter.",
+      "entities": [
+          {"entity": "pastry cutter", "label": "utensil"},
+          {"entity": "Trim", "label": "cooking-process"}
+      ]
+  }
+]
+

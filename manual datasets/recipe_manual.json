@@ -1,0 +1,860 @@
+[
+    {
+        "text": "The Margherita Pizza is traditionally made with fresh basil, mozzarella, and tomatoes.",
+        "entities": [
+            {"entity": "Margherita Pizza", "label": "recipe_title"},
+            {"entity": "basil", "label": "ingredient-used"},
+            {"entity": "mozzarella", "label": "ingredient-used"},
+            {"entity": "tomatoes", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Aloo Paratha is a popular Indian flatbread stuffed with spiced mashed potatoes.",
+        "entities": [
+            {"entity": "Aloo Paratha", "label": "recipe_title"},
+            {"entity": "Indian", "label": "region"},
+            {"entity": "flatbread", "label": "ingredient-used"},
+            {"entity": "mashed potatoes", "label": "ingredient-used"},
+            {"entity": "spices", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Dal Makhani is a slow-cooked lentil dish known for its rich, buttery taste.",
+        "entities": [
+            {"entity": "Dal Makhani", "label": "recipe_title"},
+            {"entity": "lentils", "label": "ingredient-used"},
+            {"entity": "butter", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Chicken Biryani is prepared by layering rice and spiced chicken together.",
+        "entities": [
+            {"entity": "Chicken Biryani", "label": "recipe_title"},
+            {"entity": "rice", "label": "ingredient-used"},
+            {"entity": "spiced chicken", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Masala Dosa is a crispy fermented rice pancake stuffed with spicy potato filling.",
+        "entities": [
+            {"entity": "Masala Dosa", "label": "recipe_title"},
+            {"entity": "fermented rice batter", "label": "ingredient-used"},
+            {"entity": "spicy potato filling", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Pav Bhaji is a Mumbai street food dish consisting of mashed vegetables and buttered bread rolls.",
+        "entities": [
+            {"entity": "Pav Bhaji", "label": "recipe_title"},
+            {"entity": "Mumbai", "label": "region"},
+            {"entity": "mashed vegetables", "label": "ingredient-used"},
+            {"entity": "buttered bread rolls", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Gulab Jamun is a deep-fried milk-based dessert soaked in sugar syrup.",
+        "entities": [
+            {"entity": "Gulab Jamun", "label": "recipe_title"},
+            {"entity": "milk solids", "label": "ingredient-used"},
+            {"entity": "sugar syrup", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Palak Paneer is made by cooking paneer cubes in a spinach-based gravy.",
+        "entities": [
+            {"entity": "Palak Paneer", "label": "recipe_title"},
+            {"entity": "paneer", "label": "ingredient-used"},
+            {"entity": "spinach gravy", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Vada Pav is often called the Indian burger due to its spiced potato fritter inside a bread bun.",
+        "entities": [
+            {"entity": "Vada Pav", "label": "recipe_title"},
+            {"entity": "Indian", "label": "region"},
+            {"entity": "spiced potato fritter", "label": "ingredient-used"},
+            {"entity": "bread bun", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Shrikhand is a sweet yogurt-based dish flavored with saffron and cardamom.",
+        "entities": [
+            {"entity": "Shrikhand", "label": "recipe_title"},
+            {"entity": "yogurt", "label": "ingredient-used"},
+            {"entity": "saffron", "label": "ingredient-used"},
+            {"entity": "cardamom", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Baingan Bharta is a smoky-flavored dish made by roasting eggplants over an open flame.",
+        "entities": [
+            {"entity": "Baingan Bharta", "label": "recipe_title"},
+            {"entity": "eggplants", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Chole Bhature is a combination of spicy chickpea curry and deep-fried puffed bread.",
+        "entities": [
+            {"entity": "Chole Bhature", "label": "recipe_title"},
+            {"entity": "chickpea curry", "label": "ingredient-used"},
+            {"entity": "puffed bread", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Biryani is often garnished with fried onions and served with raita.",
+        "entities": [
+            {"entity": "Biryani", "label": "recipe_title"},
+            {"entity": "fried onions", "label": "ingredient-used"},
+            {"entity": "raita", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Butter Chicken is a creamy tomato-based dish popular in North India.",
+        "entities": [
+            {"entity": "Butter Chicken", "label": "recipe_title"},
+            {"entity": "North India", "label": "region"},
+            {"entity": "chicken", "label": "ingredient-used"},
+            {"entity": "creamy tomato sauce", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Khichdi is often given as a comfort food made from lentils and rice.",
+        "entities": [
+            {"entity": "Khichdi", "label": "recipe_title"},
+            {"entity": "lentils", "label": "ingredient-used"},
+            {"entity": "rice", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Pani Puri is served with spicy, tangy, and sweet water-filled crispy shells.",
+        "entities": [
+            {"entity": "Pani Puri", "label": "recipe_title"},
+            {"entity": "crispy shells", "label": "ingredient-used"},
+            {"entity": "spicy water", "label": "ingredient-used"},
+            {"entity": "tangy water", "label": "ingredient-used"},
+            {"entity": "sweet water", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Dhokla is a steamed savory cake made from fermented chickpea batter.",
+        "entities": [
+            {"entity": "Dhokla", "label": "recipe_title"},
+            {"entity": "fermented chickpea batter", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Puran Poli is a sweet stuffed flatbread filled with jaggery and lentils.",
+        "entities": [
+            {"entity": "Puran Poli", "label": "recipe_title"},
+            {"entity": "flatbread", "label": "ingredient-used"},
+            {"entity": "jaggery", "label": "ingredient-used"},
+            {"entity": "lentils", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Thepla is a Gujarati flatbread made with fenugreek leaves and whole wheat flour.",
+        "entities": [
+            {"entity": "Thepla", "label": "recipe_title"},
+            {"entity": "Gujarati", "label": "region"},
+            {"entity": "fenugreek leaves", "label": "ingredient-used"},
+            {"entity": "whole wheat flour", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Litti Chokha is a Bihari dish made with wheat balls stuffed with spiced gram flour.",
+        "entities": [
+            {"entity": "Litti Chokha", "label": "recipe_title"},
+            {"entity": "Bihari", "label": "region"},
+            {"entity": "wheat balls", "label": "ingredient-used"},
+            {"entity": "gram flour", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Handvo is a savory cake made with fermented rice and lentil batter.",
+        "entities": [
+            {"entity": "Handvo", "label": "recipe_title"},
+            {"entity": "fermented rice", "label": "ingredient-used"},
+            {"entity": "lentil batter", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Bhel Puri is a crunchy, spicy, and tangy street food snack.",
+        "entities": [
+            {"entity": "Bhel Puri", "label": "recipe_title"}
+        ]
+    },
+    {
+        "text": "The Fish Curry is a coastal delicacy prepared with coconut milk and tamarind.",
+        "entities": [
+            {"entity": "Fish Curry", "label": "recipe_title"},
+            {"entity": "coconut milk", "label": "ingredient-used"},
+            {"entity": "tamarind", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Kadhai Paneer is a semi-dry curry cooked with capsicum and paneer.",
+        "entities": [
+            {"entity": "Kadhai Paneer", "label": "recipe_title"},
+            {"entity": "capsicum", "label": "ingredient-used"},
+            {"entity": "paneer", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Sev Usal is a spicy Maharashtrian dish made with dried peas and topped with crispy sev.",
+        "entities": [
+            {"entity": "Sev Usal", "label": "recipe_title"},
+            {"entity": "Maharashtrian", "label": "region"},
+            {"entity": "dried peas", "label": "ingredient-used"},
+            {"entity": "crispy sev", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Poha is a flattened rice dish usually cooked with mustard seeds and green chilies.",
+        "entities": [
+            {"entity": "Poha", "label": "recipe_title"},
+            {"entity": "flattened rice", "label": "ingredient-used"},
+            {"entity": "mustard seeds", "label": "ingredient-used"},
+            {"entity": "green chilies", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Uttapam is a thick dosa-like dish with toppings of vegetables.",
+        "entities": [
+            {"entity": "Uttapam", "label": "recipe_title"}
+        ]
+    },
+    {
+        "text": "The Rice Kheer is a milk-based dessert cooked with rice and flavored with cardamom.",
+        "entities": [
+            {"entity": "Rice Kheer", "label": "recipe_title"},
+            {"entity": "rice", "label": "ingredient-used"},
+            {"entity": "milk", "label": "ingredient-used"},
+            {"entity": "cardamom", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Rogan Josh is a Kashmiri dish made with slow-cooked lamb and aromatic spices.",
+        "entities": [
+            {"entity": "Rogan Josh", "label": "recipe_title"},
+            {"entity": "Kashmiri", "label": "region"},
+            {"entity": "lamb", "label": "ingredient-used"},
+            {"entity": "aromatic spices", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Mutton Curry is a spiced and slow-cooked dish prepared with tender goat meat.",
+        "entities": [
+            {"entity": "Mutton Curry", "label": "recipe_title"},
+            {"entity": "goat meat", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Sabudana Khichdi is made from soaked tapioca pearls and is a popular fasting dish.",
+        "entities": [
+            {"entity": "Sabudana Khichdi", "label": "recipe_title"},
+            {"entity": "tapioca pearls", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Misal Pav is a spicy Maharashtrian dish served with sprouted lentils and spicy gravy.",
+        "entities": [
+            {"entity": "Misal Pav", "label": "recipe_title"},
+            {"entity": "Maharashtrian", "label": "region"},
+            {"entity": "sprouted lentils", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Methi Thepla is a staple breakfast dish in Gujarat made with fenugreek leaves.",
+        "entities": [
+            {"entity": "Methi Thepla", "label": "recipe_title"},
+            {"entity": "Gujarat", "label": "region"},
+            {"entity": "fenugreek leaves", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Idli Sambar is a traditional South Indian breakfast served with coconut chutney.",
+        "entities": [
+            {"entity": "Idli Sambar", "label": "recipe_title"},
+            {"entity": "South Indian", "label": "region"},
+            {"entity": "coconut chutney", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Bhindi Masala is a North Indian dish made by stir-frying okra with onions and tomatoes.",
+        "entities": [
+            {"entity": "Bhindi Masala", "label": "recipe_title"},
+            {"entity": "North Indian", "label": "region"},
+            {"entity": "okra", "label": "ingredient-used"},
+            {"entity": "onions", "label": "ingredient-used"},
+            {"entity": "tomatoes", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Jeera Rice is a simple cumin-flavored rice dish often served with dal or curries.",
+        "entities": [
+            {"entity": "Jeera Rice", "label": "recipe_title"},
+            {"entity": "cumin", "label": "ingredient-used"},
+            {"entity": "rice", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Rajma Chawal is a Punjabi dish made with red kidney beans in a thick gravy served with rice.",
+        "entities": [
+            {"entity": "Rajma Chawal", "label": "recipe_title"},
+            {"entity": "Punjabi", "label": "region"},
+            {"entity": "red kidney beans", "label": "ingredient-used"},
+            {"entity": "rice", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Khandvi is a Gujarati dish made from gram flour, yogurt, and tempered mustard seeds.",
+        "entities": [
+            {"entity": "Khandvi", "label": "recipe_title"},
+            {"entity": "Gujarati", "label": "region"},
+            {"entity": "gram flour", "label": "ingredient-used"},
+            {"entity": "yogurt", "label": "ingredient-used"},
+            {"entity": "mustard seeds", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Pasta Alfredo is made with a creamy white sauce using butter, cream, and cheese.",
+        "entities": [
+            {"entity": "Pasta Alfredo", "label": "recipe_title"},
+            {"entity": "butter", "label": "ingredient-used"},
+            {"entity": "cream", "label": "ingredient-used"},
+            {"entity": "cheese", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Pepperoni Pizza is a classic American-style pizza topped with spicy sausage slices.",
+        "entities": [
+            {"entity": "Pepperoni Pizza", "label": "recipe_title"},
+            {"entity": "American", "label": "region"},
+            {"entity": "spicy sausage", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Caesar Salad is a fresh salad made with romaine lettuce, croutons, and parmesan cheese.",
+        "entities": [
+            {"entity": "Caesar Salad", "label": "recipe_title"},
+            {"entity": "romaine lettuce", "label": "ingredient-used"},
+            {"entity": "croutons", "label": "ingredient-used"},
+            {"entity": "parmesan cheese", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Enchiladas are Mexican tortillas rolled and baked with cheese and sauce.",
+        "entities": [
+            {"entity": "Enchiladas", "label": "recipe_title"},
+            {"entity": "Mexican", "label": "region"},
+            {"entity": "tortillas", "label": "ingredient-used"},
+            {"entity": "cheese", "label": "ingredient-used"},
+            {"entity": "sauce", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Burrito is a Mexican wrap filled with rice, beans, and meat.",
+        "entities": [
+            {"entity": "Burrito", "label": "recipe_title"},
+            {"entity": "Mexican", "label": "region"},
+            {"entity": "rice", "label": "ingredient-used"},
+            {"entity": "beans", "label": "ingredient-used"},
+            {"entity": "meat", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Shawarma is a Middle Eastern dish made from thinly sliced meat wrapped in pita bread.",
+        "entities": [
+            {"entity": "Shawarma", "label": "recipe_title"},
+            {"entity": "Middle Eastern", "label": "region"},
+            {"entity": "meat", "label": "ingredient-used"},
+            {"entity": "pita bread", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Gyro is a Greek sandwich made with lamb and tzatziki sauce.",
+        "entities": [
+            {"entity": "Gyro", "label": "recipe_title"},
+            {"entity": "Greek", "label": "region"},
+            {"entity": "lamb", "label": "ingredient-used"},
+            {"entity": "tzatziki sauce", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Hummus is a smooth dip made from blended chickpeas, tahini, lemon, and garlic.",
+        "entities": [
+            {"entity": "Hummus", "label": "recipe_title"},
+            {"entity": "chickpeas", "label": "ingredient-used"},
+            {"entity": "tahini", "label": "ingredient-used"},
+            {"entity": "lemon", "label": "ingredient-used"},
+            {"entity": "garlic", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Tabouleh is a Mediterranean salad made with parsley, bulgur, tomatoes, and mint.",
+        "entities": [
+            {"entity": "Tabouleh", "label": "recipe_title"},
+            {"entity": "Mediterranean", "label": "region"},
+            {"entity": "parsley", "label": "ingredient-used"},
+            {"entity": "bulgur", "label": "ingredient-used"},
+            {"entity": "tomatoes", "label": "ingredient-used"},
+            {"entity": "mint", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Pesarattu is a South Indian crepe made from green gram batter.",
+        "entities": [
+            {"entity": "Pesarattu", "label": "recipe_title"},
+            {"entity": "South Indian", "label": "region"},
+            {"entity": "green gram batter", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Rava Dosa is a crispy South Indian dosa made with semolina and rice flour.",
+        "entities": [
+            {"entity": "Rava Dosa", "label": "recipe_title"},
+            {"entity": "South Indian", "label": "region"},
+            {"entity": "semolina", "label": "ingredient-used"},
+            {"entity": "rice flour", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Mutton Biryani is a fragrant rice dish cooked with spiced marinated meat.",
+        "entities": [
+            {"entity": "Mutton Biryani", "label": "recipe_title"},
+            {"entity": "rice", "label": "ingredient-used"},
+            {"entity": "spiced marinated meat", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Methi Malai Murg is a creamy chicken dish made with fenugreek leaves and cream.",
+        "entities": [
+            {"entity": "Methi Malai Murg", "label": "recipe_title"},
+            {"entity": "fenugreek leaves", "label": "ingredient-used"},
+            {"entity": "cream", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Baida Roti is a street food dish where paratha is stuffed with eggs and spices.",
+        "entities": [
+            {"entity": "Baida Roti", "label": "recipe_title"},
+            {"entity": "paratha", "label": "ingredient-used"},
+            {"entity": "eggs", "label": "ingredient-used"},
+            {"entity": "spices", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Dal Tadka is a lentil dish tempered with ghee, cumin, and garlic.",
+        "entities": [
+            {"entity": "Dal Tadka", "label": "recipe_title"},
+            {"entity": "lentils", "label": "ingredient-used"},
+            {"entity": "ghee", "label": "ingredient-used"},
+            {"entity": "cumin", "label": "ingredient-used"},
+            {"entity": "garlic", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Aloo Gobi is a vegetarian dish made with potatoes and cauliflower.",
+        "entities": [
+            {"entity": "Aloo Gobi", "label": "recipe_title"},
+            {"entity": "potatoes", "label": "ingredient-used"},
+            {"entity": "cauliflower", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Chaas is a cooling buttermilk drink commonly consumed after meals.",
+        "entities": [
+            {"entity": "Chaas", "label": "recipe_title"},
+            {"entity": "buttermilk", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Rasam is a spicy South Indian soup made with tamarind and black pepper.",
+        "entities": [
+            {"entity": "Rasam", "label": "recipe_title"},
+            {"entity": "South Indian", "label": "region"},
+            {"entity": "tamarind", "label": "ingredient-used"},
+            {"entity": "black pepper", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Momo are steamed dumplings filled with vegetables or meat.",
+        "entities": [
+            {"entity": "Momo", "label": "recipe_title"},
+            {"entity": "vegetables", "label": "ingredient-used"},
+            {"entity": "meat", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Pho is a Vietnamese noodle soup made with aromatic broth and fresh herbs.",
+        "entities": [
+            {"entity": "Pho", "label": "recipe_title"},
+            {"entity": "Vietnamese", "label": "region"},
+            {"entity": "noodle", "label": "ingredient-used"},
+            {"entity": "broth", "label": "ingredient-used"},
+            {"entity": "fresh herbs", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Katsu Curry is a Japanese dish made with breaded fried chicken and curry sauce.",
+        "entities": [
+            {"entity": "Katsu Curry", "label": "recipe_title"},
+            {"entity": "Japanese", "label": "region"},
+            {"entity": "breaded fried chicken", "label": "ingredient-used"},
+            {"entity": "curry sauce", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Tempura is a Japanese deep-fried dish using a light batter.",
+        "entities": [
+            {"entity": "Tempura", "label": "recipe_title"},
+            {"entity": "Japanese", "label": "region"},
+            {"entity": "light batter", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Kimchi Jjigae is a Korean stew made with kimchi and tofu.",
+        "entities": [
+            {"entity": "Kimchi Jjigae", "label": "recipe_title"},
+            {"entity": "Korean", "label": "region"},
+            {"entity": "kimchi", "label": "ingredient-used"},
+            {"entity": "tofu", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Gyoza are Japanese pan-fried dumplings with pork filling.",
+        "entities": [
+            {"entity": "Gyoza", "label": "recipe_title"},
+            {"entity": "Japanese", "label": "region"},
+            {"entity": "pork", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Bibimbap is a Korean rice bowl topped with assorted vegetables and egg.",
+        "entities": [
+            {"entity": "Bibimbap", "label": "recipe_title"},
+            {"entity": "Korean", "label": "region"},
+            {"entity": "rice", "label": "ingredient-used"},
+            {"entity": "vegetables", "label": "ingredient-used"},
+            {"entity": "egg", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Bulgogi is a Korean BBQ dish made with marinated beef slices.",
+        "entities": [
+            {"entity": "Bulgogi", "label": "recipe_title"},
+            {"entity": "Korean", "label": "region"},
+            {"entity": "marinated beef slices", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Laksa is a spicy noodle soup from Southeast Asia.",
+        "entities": [
+            {"entity": "Laksa", "label": "recipe_title"},
+            {"entity": "Southeast Asia", "label": "region"},
+            {"entity": "noodle", "label": "ingredient-used"},
+            {"entity": "spicy broth", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Tom Yum is a hot and sour Thai soup made with shrimp and lemongrass.",
+        "entities": [
+            {"entity": "Tom Yum", "label": "recipe_title"},
+            {"entity": "Thai", "label": "region"},
+            {"entity": "shrimp", "label": "ingredient-used"},
+            {"entity": "lemongrass", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Satay are grilled meat skewers served with peanut sauce.",
+        "entities": [
+            {"entity": "Satay", "label": "recipe_title"},
+            {"entity": "meat skewers", "label": "ingredient-used"},
+            {"entity": "peanut sauce", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Frittata is an Italian-style omelet made with eggs, cheese, and vegetables.",
+        "entities": [
+            {"entity": "Frittata", "label": "recipe_title"},
+            {"entity": "Italian", "label": "region"},
+            {"entity": "eggs", "label": "ingredient-used"},
+            {"entity": "cheese", "label": "ingredient-used"},
+            {"entity": "vegetables", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Ratatouille is a French vegetable stew made with zucchini, eggplant, and tomatoes.",
+        "entities": [
+            {"entity": "Ratatouille", "label": "recipe_title"},
+            {"entity": "French", "label": "region"},
+            {"entity": "zucchini", "label": "ingredient-used"},
+            {"entity": "eggplant", "label": "ingredient-used"},
+            {"entity": "tomatoes", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Croissant is a flaky French pastry made with laminated dough.",
+        "entities": [
+            {"entity": "Croissant", "label": "recipe_title"},
+            {"entity": "French", "label": "region"},
+            {"entity": "laminated dough", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Soufflé is a baked egg-based dish that puffs up in the oven.",
+        "entities": [
+            {"entity": "Soufflé", "label": "recipe_title"},
+            {"entity": "eggs", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Beef Wellington is a dish where beef is wrapped in puff pastry and baked.",
+        "entities": [
+            {"entity": "Beef Wellington", "label": "recipe_title"},
+            {"entity": "beef", "label": "ingredient-used"},
+            {"entity": "puff pastry", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Clam Chowder is a creamy seafood soup popular in New England.",
+        "entities": [
+            {"entity": "Clam Chowder", "label": "recipe_title"},
+            {"entity": "New England", "label": "region"},
+            {"entity": "seafood", "label": "ingredient-used"},
+            {"entity": "cream", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Gumbo is a Louisiana stew made with okra, seafood, and a thick roux.",
+        "entities": [
+            {"entity": "Gumbo", "label": "recipe_title"},
+            {"entity": "Louisiana", "label": "region"},
+            {"entity": "okra", "label": "ingredient-used"},
+            {"entity": "seafood", "label": "ingredient-used"},
+            {"entity": "thick roux", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Jambalaya is a Creole rice dish cooked with sausage, shrimp, and spices.",
+        "entities": [
+            {"entity": "Jambalaya", "label": "recipe_title"},
+            {"entity": "Creole", "label": "region"},
+            {"entity": "rice", "label": "ingredient-used"},
+            {"entity": "sausage", "label": "ingredient-used"},
+            {"entity": "shrimp", "label": "ingredient-used"},
+            {"entity": "spices", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Cheesecake is a rich dessert made with cream cheese and a biscuit base.",
+        "entities": [
+            {"entity": "Cheesecake", "label": "recipe_title"},
+            {"entity": "cream cheese", "label": "ingredient-used"},
+            {"entity": "biscuit base", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Chocolate Brownie is a dense, fudgy dessert made with cocoa and butter.",
+        "entities": [
+            {"entity": "Chocolate Brownie", "label": "recipe_title"},
+            {"entity": "cocoa", "label": "ingredient-used"},
+            {"entity": "butter", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "The Tiramisu is an Italian coffee-flavored dessert made with mascarpone cheese.",
+        "entities": [
+            {"entity": "Tiramisu", "label": "recipe_title"},
+            {"entity": "Italian", "label": "region"},
+            {"entity": "mascarpone cheese", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Which kitchen utensil is essential for preparing Pasta using a whisk?",
+        "entities": [
+            {"entity": "Pasta", "label": "recipe_title"},
+            {"entity": "whisk", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "What is the primary function of a spatula in cooking?",
+        "entities": [
+            {"entity": "spatula", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Chefs often use a rolling pin for flattening dough. Can you identify this tool?",
+        "entities": [
+            {"entity": "rolling pin", "label": "utensil"},
+            {"entity": "flattening", "label": "cooking_process"},
+            {"entity": "dough", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "In this recipe, a colander is required. What is it used for?",
+        "entities": [
+            {"entity": "colander", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "What kind of tasks in the kitchen require a sieve?",
+        "entities": [
+            {"entity": "sieve", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Which kitchen utensil is commonly used to blend ingredients?",
+        "entities": [
+            {"entity": "blend", "label": "cooking_process"}
+        ]
+    },
+    {
+        "text": "Name a kitchen tool that makes whisking easier, such as a hand mixer.",
+        "entities": [
+            {"entity": "whisking", "label": "cooking_process"},
+            {"entity": "hand mixer", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "How does a grater help in achieving the correct texture for Parmesan cheese?",
+        "entities": [
+            {"entity": "grater", "label": "utensil"},
+            {"entity": "Parmesan cheese", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "When cooking Sushi, why is a bamboo mat preferred?",
+        "entities": [
+            {"entity": "Sushi", "label": "recipe_title"},
+            {"entity": "bamboo mat", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Which recipes require a pressure cooker for proper preparation?",
+        "entities": [
+            {"entity": "pressure cooker", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Would a professional chef use a meat thermometer for roasting turkey?",
+        "entities": [
+            {"entity": "meat thermometer", "label": "utensil"},
+            {"entity": "roasting", "label": "cooking_process"},
+            {"entity": "turkey", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "What happens if you try to knead dough without a dough scraper?",
+        "entities": [
+            {"entity": "knead", "label": "cooking_process"},
+            {"entity": "dough", "label": "ingredient-used"},
+            {"entity": "dough scraper", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "A pasta maker is used in making Fettuccine. What role does it play?",
+        "entities": [
+            {"entity": "pasta maker", "label": "utensil"},
+            {"entity": "Fettuccine", "label": "recipe_title"}
+        ]
+    },
+    {
+        "text": "How does a stand mixer compare to a whisk in baking?",
+        "entities": [
+            {"entity": "stand mixer", "label": "utensil"},
+            {"entity": "whisk", "label": "utensil"},
+            {"entity": "baking", "label": "cooking_process"}
+        ]
+    },
+    {
+        "text": "If you don’t have a rolling pin, what alternative tools can be used?",
+        "entities": [
+            {"entity": "rolling pin", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Is a cast iron skillet absolutely necessary for searing steak?",
+        "entities": [
+            {"entity": "cast iron skillet", "label": "utensil"},
+            {"entity": "searing", "label": "cooking_process"},
+            {"entity": "steak", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "What features make a silicone spatula better suited for mixing than a wooden spoon?",
+        "entities": [
+            {"entity": "silicone spatula", "label": "utensil"},
+            {"entity": "mixing", "label": "cooking_process"},
+            {"entity": "wooden spoon", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Would you recommend a pastry brush over a butter knife for spreading glaze?",
+        "entities": [
+            {"entity": "pastry brush", "label": "utensil"},
+            {"entity": "butter knife", "label": "utensil"},
+            {"entity": "spreading", "label": "cooking_process"},
+            {"entity": "glaze", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "What are some safety tips for handling a mandoline slicer in the kitchen?",
+        "entities": [
+            {"entity": "mandoline slicer", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "How should a carbon steel wok be cleaned after use?",
+        "entities": [
+            {"entity": "carbon steel wok", "label": "utensil"},
+            {"entity": "cleaning", "label": "cooking_process"}
+        ]
+    },
+    {
+        "text": "Why should a chef’s knife be stored properly after use?",
+        "entities": [
+            {"entity": "chef’s knife", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "What are common mistakes people make when using a zester?",
+        "entities": [
+            {"entity": "zester", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Can using a cleaver incorrectly lead to accidents?",
+        "entities": [
+            {"entity": "cleaver", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "Is a mortar and pestle essential for grinding spices?",
+        "entities": [
+            {"entity": "mortar and pestle", "label": "utensil"},
+            {"entity": "grinding", "label": "cooking_process"},
+            {"entity": "spices", "label": "ingredient-used"}
+        ]
+    },
+    {
+        "text": "Would a home cook benefit from investing in a high-quality electric kettle?",
+        "entities": [
+            {"entity": "electric kettle", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "How is a professional-grade bread knife different from a basic one?",
+        "entities": [
+            {"entity": "bread knife", "label": "utensil"}
+        ]
+    },
+    {
+        "text": "What brands of Dutch oven are most recommended by chefs?",
+        "entities": [
+            {"entity": "Dutch oven", "label": "utensil"}
+        ]
+    }
+]
+
+ 

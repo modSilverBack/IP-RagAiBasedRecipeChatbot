@@ -1,0 +1,122 @@
+[
+    {
+        "text": "Find me a meal that has no more than 500 calories.",
+        "entities": [
+            {"entity": "500", "label": "energy_max"}
+        ]
+    },
+    {
+        "text": "Show me a dish with at least 20g of protein.",
+        "entities": [
+            {"entity": "20g", "label": "protein_min"}
+        ]
+    },
+    {
+        "text": "I want a low-fat meal with a maximum of 10 grams of fat.",
+        "entities": [
+            {"entity": "10", "label": "fat_max"}
+        ]
+    },
+    {
+        "text": "List recipes with at least 50 grams of carbohydrates.",
+        "entities": [
+            {"entity": "50", "label": "carbohydrates_min"}
+        ]
+    },
+    {
+        "text": "Give me a meal where the fat content is between 5 and 20 grams.",
+        "entities": [
+            {"entity": "5", "label": "fat_min"},
+            {"entity": "20", "label": "fat_max"}
+        ]
+    },
+    {
+        "text": "Find a dish that has an energy range between 200 and 600 calories.",
+        "entities": [
+            {"entity": "200", "label": "energy_min"},
+            {"entity": "600", "label": "energy_max"}
+        ]
+    },
+    {
+        "text": "Which meals contain between 15 and 30 grams of protein?",
+        "entities": [
+            {"entity": "15", "label": "protein_min"},
+            {"entity": "30", "label": "protein_max"}
+        ]
+    },
+    {
+        "text": "Show me a recipe where carbohydrates fall within 40 and 80 grams.",
+        "entities": [
+            {"entity": "40", "label": "carbohydrates_min"},
+            {"entity": "80", "label": "carbohydrates_max"}
+        ]
+    },
+    {
+        "text": "Suggest a dish that ensures a minimum of 10 grams of fat and a maximum of 50 grams of carbohydrates.",
+        "entities": [
+            {"entity": "10", "label": "fat_min"},
+            {"entity": "50", "label": "carbohydrates_max"}
+        ]
+    },
+    {
+        "text": "Find a meal that provides at least 300 calories while ensuring protein remains below 40 grams.",
+        "entities": [
+            {"entity": "300", "label": "energy_min"},
+            {"entity": "40", "label": "protein_max"}
+        ]
+    },
+    {
+        "text": "List a recipe that contains at least 25 grams of protein while keeping fat between 10 and 20 grams.",
+        "entities": [
+            {"entity": "25", "label": "protein_min"},
+            {"entity": "10", "label": "fat_min"},
+            {"entity": "20", "label": "fat_max"}
+        ]
+    },
+    {
+        "text": "Show me a dish that has energy between 150 and 500 calories while keeping fat no more than 20 grams.",
+        "entities": [
+            {"entity": "150", "label": "energy_min"},
+            {"entity": "500", "label": "energy_max"},
+            {"entity": "20", "label": "fat_max"}
+        ]
+    },
+    {
+        "text": "Which recipes ensure a carbohydrate range of 30 to 70 grams while keeping energy below 600 calories?",
+        "entities": [
+            {"entity": "30", "label": "carbohydrates_min"},
+            {"entity": "70", "label": "carbohydrates_max"},
+            {"entity": "600", "label": "energy_max"}
+        ]
+    },
+    {
+        "text": "Give me a dish where protein is at least 20 grams and energy is no more than 450 calories.",
+        "entities": [
+            {"entity": "20", "label": "protein_min"},
+            {"entity": "450", "label": "energy_max"}
+        ]
+    },
+    {
+        "text": "I need a recipe with between 25g and 60g of protein and no more than 700 calories.",
+        "entities": [
+            {"entity": "25g", "label": "protein_min"},
+            {"entity": "60g", "label": "protein_max"},
+            {"entity": "700", "label": "energy_max"}
+        ]
+    },
+    {
+        "text": "Find a meal that ensures fat stays between 8g and 25g while keeping energy below 500 calories.",
+        "entities": [
+            {"entity": "8g", "label": "fat_min"},
+            {"entity": "25g", "label": "fat_max"},
+            {"entity": "500", "label": "energy_max"}
+        ]
+    },
+    {
+        "text": "Suggest a dish that maintains a carbohydrate intake of at least 40g but does not exceed 90g.",
+        "entities": [
+            {"entity": "40g", "label": "carbohydrates_min"},
+            {"entity": "90g", "label": "carbohydrates_max"}
+        ]
+    }
+]

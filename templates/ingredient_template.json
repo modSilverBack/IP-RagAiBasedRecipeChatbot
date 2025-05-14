@@ -1,0 +1,23 @@
+{
+    "ingredient_used": [
+        "Which dish includes [ingredient-used] as a primary ingredient?",
+        "What recipe features [ingredient-used]?",
+        "Can you suggest a recipe that uses [ingredient-used]?",
+        "Show me a dish that incorporates [ingredient-used].",
+        "Name a popular recipe where [ingredient-used] is used."
+    ],
+    "ingredient_not_used": [
+        "Which recipe excludes [ingredient-not-used]?",
+        "What dish is prepared without [ingredient-not-used]?",
+        "Can you suggest a recipe that does not use [ingredient-not-used]?",
+        "Show me a dish that omits [ingredient-not-used].",
+        "Name a recipe that doesn't include [ingredient-not-used]."
+    ],
+    "combined": [
+        "Which recipe uses [ingredient-used] but avoids [ingredient-not-used]?",
+        "What dish features [ingredient-used] instead of [ingredient-not-used]?",
+        "Suggest a recipe that incorporates [ingredient-used] while leaving out [ingredient-not-used].",
+        "Can you provide a recipe where [ingredient-used] is used and [ingredient-not-used] is omitted?",
+        "Show me a dish that includes [ingredient-used] but does not contain [ingredient-not-used]."
+    ]
+}

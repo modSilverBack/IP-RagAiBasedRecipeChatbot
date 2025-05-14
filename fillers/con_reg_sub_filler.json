@@ -1,0 +1,377 @@
+[
+    {
+      "continent": "African",
+      "region": "Middle Eastern",
+      "sub-region": "Egyptian"
+    },
+    {
+      "continent": "African",
+      "region": "Northern Africa",
+      "sub-region": "Libyan"
+    },
+    {
+      "continent": "African",
+      "region": "Northern Africa",
+      "sub-region": "Moroccan"
+    },
+    {
+      "continent": "African",
+      "region": "Rest Africa",
+      "sub-region": "Angolan"
+    },
+    {
+      "continent": "African",
+      "region": "Rest Africa",
+      "sub-region": "Ethiopian"
+    },
+    {
+      "continent": "African",
+      "region": "Rest Africa",
+      "sub-region": "Namibian"
+    },
+    {
+      "continent": "African",
+      "region": "Rest Africa",
+      "sub-region": "Nigerian"
+    },
+    {
+      "continent": "African",
+      "region": "Rest Africa",
+      "sub-region": "Somalian"
+    },
+    {
+      "continent": "African",
+      "region": "Rest Africa",
+      "sub-region": "Sudanese"
+    },
+    {
+      "continent": "Asian",
+      "region": "Chinese and Mongolian",
+      "sub-region": "Chinese"
+    },
+    {
+      "continent": "Asian",
+      "region": "Chinese and Mongolian",
+      "sub-region": "Mongolian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Indian Subcontinent",
+      "sub-region": "Bangladeshi"
+    },
+    {
+      "continent": "Asian",
+      "region": "Indian Subcontinent",
+      "sub-region": "Indian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Indian Subcontinent",
+      "sub-region": "Nepalese"
+    },
+    {
+      "continent": "Asian",
+      "region": "Indian Subcontinent",
+      "sub-region": "Pakistani"
+    },
+    {
+      "continent": "Asian",
+      "region": "Japanese",
+      "sub-region": "Japanese"
+    },
+    {
+      "continent": "Asian",
+      "region": "Korean",
+      "sub-region": "Korean"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Iraqi"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Israeli"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Laotian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Lebanese"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Palestinian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Rest Middle Eastern"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Saudi Arabian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Middle Eastern",
+      "sub-region": "Turkish"
+    },
+    {
+      "continent": "Asian",
+      "region": "Southeast Asian",
+      "sub-region": "Cambodian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Southeast Asian",
+      "sub-region": "Filipino"
+    },
+    {
+      "continent": "Asian",
+      "region": "Southeast Asian",
+      "sub-region": "Indonesian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Southeast Asian",
+      "sub-region": "Malaysian"
+    },
+    {
+      "continent": "Asian",
+      "region": "Southeast Asian",
+      "sub-region": "Vietnamese"
+    },
+    {
+      "continent": "Asian",
+      "region": "Thai",
+      "sub-region": "Thai"
+    },
+    {
+      "continent": "Australasian",
+      "region": "Australian",
+      "sub-region": "Australian"
+    },
+    {
+      "continent": "Australasian",
+      "region": "Australian",
+      "sub-region": "New Zealander"
+    },
+    {
+      "continent": "European",
+      "region": "Belgian",
+      "sub-region": "Belgian"
+    },
+    {
+      "continent": "European",
+      "region": "Belgian",
+      "sub-region": "Dutch"
+    },
+    {
+      "continent": "European",
+      "region": "Deutschland",
+      "sub-region": "Austrian"
+    },
+    {
+      "continent": "European",
+      "region": "Deutschland",
+      "sub-region": "German"
+    },
+    {
+      "continent": "European",
+      "region": "Deutschland",
+      "sub-region": "Swiss"
+    },
+    {
+      "continent": "European",
+      "region": "Eastern European",
+      "sub-region": "Czech"
+    },
+    {
+      "continent": "European",
+      "region": "Eastern European",
+      "sub-region": "Hungarian"
+    },
+    {
+      "continent": "European",
+      "region": "Eastern European",
+      "sub-region": "Polish"
+    },
+    {
+      "continent": "European",
+      "region": "Eastern European",
+      "sub-region": "Rest Eastern European"
+    },
+    {
+      "continent": "European",
+      "region": "Eastern European",
+      "sub-region": "Russian"
+    },
+    {
+      "continent": "European",
+      "region": "French",
+      "sub-region": "French"
+    },
+    {
+      "continent": "European",
+      "region": "Greek",
+      "sub-region": "Greek"
+    },
+    {
+      "continent": "European",
+      "region": "Irish",
+      "sub-region": "Irish"
+    },
+    {
+      "continent": "European",
+      "region": "Italian",
+      "sub-region": "Italian"
+    },
+    {
+      "continent": "European",
+      "region": "Scandinavian",
+      "sub-region": "Danish"
+    },
+    {
+      "continent": "European",
+      "region": "Scandinavian",
+      "sub-region": "Finnish"
+    },
+    {
+      "continent": "European",
+      "region": "Scandinavian",
+      "sub-region": "Icelandic"
+    },
+    {
+      "continent": "European",
+      "region": "Scandinavian",
+      "sub-region": "Norwegian"
+    },
+    {
+      "continent": "European",
+      "region": "Scandinavian",
+      "sub-region": "Swedish"
+    },
+    {
+      "continent": "European",
+      "region": "Spanish and Portuguese",
+      "sub-region": "Portuguese"
+    },
+    {
+      "continent": "European",
+      "region": "Spanish and Portuguese",
+      "sub-region": "Spanish"
+    },
+    {
+      "continent": "European",
+      "region": "UK",
+      "sub-region": "English"
+    },
+    {
+      "continent": "European",
+      "region": "UK",
+      "sub-region": "Scottish"
+    },
+    {
+      "continent": "European",
+      "region": "UK",
+      "sub-region": "UK"
+    },
+    {
+      "continent": "European",
+      "region": "UK",
+      "sub-region": "Welsh"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Caribbean",
+      "sub-region": "Cuban"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Caribbean",
+      "sub-region": "Jamaican"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Caribbean",
+      "sub-region": "Puerto Rican"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Caribbean",
+      "sub-region": "Rest Caribbean"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Central American",
+      "sub-region": "Costa Rican"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Central American",
+      "sub-region": "Guatemalan"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Central American",
+      "sub-region": "Honduran"
+    },
+    {
+      "continent": "Latin American",
+      "region": "Mexican",
+      "sub-region": "Mexican"
+    },
+    {
+      "continent": "Latin American",
+      "region": "South American",
+      "sub-region": "Argentine"
+    },
+    {
+      "continent": "Latin American",
+      "region": "South American",
+      "sub-region": "Brazilian"
+    },
+    {
+      "continent": "Latin American",
+      "region": "South American",
+      "sub-region": "Chilean"
+    },
+    {
+      "continent": "Latin American",
+      "region": "South American",
+      "sub-region": "Colombian"
+    },
+    {
+      "continent": "Latin American",
+      "region": "South American",
+      "sub-region": "Ecuadorean"
+    },
+    {
+      "continent": "Latin American",
+      "region": "South American",
+      "sub-region": "Peruvian"
+    },
+    {
+      "continent": "Latin American",
+      "region": "South American",
+      "sub-region": "Venezuelan"
+    },
+    {
+      "continent": "North American",
+      "region": "Canadian",
+      "sub-region": "Canadian"
+    },
+    {
+      "continent": "North American",
+      "region": "US",
+      "sub-region": "US"
+    }
+  ]  

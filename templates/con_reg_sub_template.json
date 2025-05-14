@@ -1,0 +1,44 @@
+{
+  "continent": [
+    "Which dish is popular in [continent] cuisine?",
+    "What are some traditional [continent] recipes?",
+    "Name a signature [continent] dish.",
+    "Which dessert is well-known in [continent] culture?"
+  ],
+  "region": [
+    "Which dish is famous in [region] cuisine?",
+    "What is a staple meal in [region] cooking?",
+    "Name a traditional [region] recipe.",
+    "Which savory dish defines [region] flavors?"
+  ],
+  "sub_region": [
+    "Which dish is native to [sub_region] culinary traditions?",
+    "What is a popular meal in [sub_region] cuisine?",
+    "Name a local specialty from [sub_region] cooking.",
+    "Which street food is iconic in [sub_region] culture?"
+  ],
+  "continent_region": [
+    "Give me a dish from [continent] cuisine that originates from [region] style.",
+    "Which dish from [continent] kitchens is popular in the [region] area?",
+    "What signature dish from [continent] culinary traditions is typical of [region] cuisine?",
+    "Show me a famous dish from [continent] cuisine found in [region] markets."
+  ],
+  "continent_sub_region": [
+    "Give me a dish from [continent] cuisine that hails from [sub_region] traditions.",
+    "Which recipe from [continent] kitchens is native to [sub_region] culture?",
+    "Show me a celebrated dish from [continent] cuisine typical of [sub_region] traditions.",
+    "What dish best represents [continent] flavors from [sub_region] heritage?"
+  ],
+  "region_sub_region": [
+    "Give me a dish from [region] cuisine that comes from [sub_region] traditions.",
+    "Which recipe from [region] kitchens is a local specialty in [sub_region] style?",
+    "Show me a notable dish from [region] cuisine found in [sub_region] kitchens.",
+    "What dish best represents [region] culinary traditions in [sub_region]?"
+  ],
+  "all_three": [
+    "Show me a breakfast dish from [sub_region] cuisine in [continent] that is popular in the [region] area.",
+    "What is a signature dish from [continent] cuisine that originates from [sub_region] in [region]?",
+    "Suggest a local recipe from [continent] kitchens that hails from [sub_region] in [region].",
+    "What are the key flavors in the [continent] dish from [sub_region] cuisine in the [region] region?"
+  ]
+}

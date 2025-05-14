@@ -1,0 +1,20 @@
+{
+  "base_form": [
+    "What dishes do you [cooking-process] the ingredients?",
+    "How do you [cooking-process] this dish?",
+    "Which dish is best to [cooking-process]?",
+    "Describe how you would [cooking-process] a recipe."
+  ],
+  "ing_form": [
+    "What dish uses [cooking-process] in it's cooking?",
+    "How does [cooking-process] the dish enhance its flavor?",
+    "why is [cooking-process] important to this dish?",
+    "Explain the process of [cooking-process] in this recipe."
+  ],
+  "ed_form": [
+    "How is the dish [cooking-process] to achieve the perfect texture?",
+    "What changes occur once the ingredients are [cooking-process]?",
+    "What are some dishes that have to be [cooking-process].",
+    "What does the meal look like once it is [cooking-process]?"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "recipe_title": [
+    "What is the complete recipe for [recipe_title]?",
+    "How is [recipe_title] prepared?",
+    "Could you provide the detailed cooking instructions for [recipe_title]?",
+    "Which ingredients and steps are required to make [recipe_title]?",
+    "What are the step-by-step directions to prepare [recipe_title]?",
+    "What cooking method is used in the making of [recipe_title]?",
+    "What is the traditional recipe for cooking [recipe_title]?",
+    "How do you make [recipe_title] from scratch, including all ingredients?",
+    "What are the key steps and ingredients involved in preparing [recipe_title]?",
+    "Can you outline the complete recipe details for [recipe_title]?",
+    "Which kitchen tools and ingredients are necessary for [recipe_title]?",
+    "What is the nutritional information and recipe breakdown for [recipe_title]?",
+    "How long does it take to fully prepare [recipe_title], and what are the steps?",
+    "What are some popular variations of [recipe_title] for different dietary restrictions?",
+    "Can you suggest alternative ingredients to create a healthier version of [recipe_title]?",
+    "Which side dishes pair best with [recipe_title]?",
+    "How has the preparation of [recipe_title] evolved over the years?",
+    "What common mistakes should be avoided when making [recipe_title]?",
+    "How does a regional twist modify the taste of [recipe_title]?",
+    "How can [recipe_title] be adapted for a vegan diet?",
+    "Which flavor profiles are most prominent in [recipe_title] and what makes it unique?"
+  ],
+  "2_recipes": [
+    "How are [recipe_title0] and [recipe_title1] prepared, and what are their key differences?",
+    "What is the complete recipe and nutritional information for [recipe_title0] compared to [recipe_title1]?",
+    "Can you provide detailed cooking instructions for both [recipe_title0] and [recipe_title1]?",
+    "Describe the cooking process for [recipe_title0] and [recipe_title1] and highlight their unique flavors.",
+    "Compare the recipes for [recipe_title0] and [recipe_title1] in terms of ingredients and preparation methods."
+  ],
+  "3_recipes": [
+    "Could you provide detailed cooking instructions and ingredient lists for [recipe_title0], [recipe_title1], and [recipe_title2]?",
+    "How do you prepare [recipe_title0], [recipe_title1], and [recipe_title2], and what are their unique cooking methods?",
+    "Outline the recipes for [recipe_title0], [recipe_title1], and [recipe_title2] and explain how they differ in preparation."
+  ]
+}

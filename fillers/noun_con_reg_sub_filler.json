@@ -1,0 +1,377 @@
+[
+  {
+    "continent": "Africa",
+    "region": "Middle East",
+    "sub-region": "Egypt"
+  },
+  {
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "sub-region": "Libya"
+  },
+  {
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "sub-region": "Morocco"
+  },
+  {
+    "continent": "Africa",
+    "region": "Rest Africa",
+    "sub-region": "Angola"
+  },
+  {
+    "continent": "Africa",
+    "region": "Rest Africa",
+    "sub-region": "Ethiopia"
+  },
+  {
+    "continent": "Africa",
+    "region": "Rest Africa",
+    "sub-region": "Namibia"
+  },
+  {
+    "continent": "Africa",
+    "region": "Rest Africa",
+    "sub-region": "Nigeria"
+  },
+  {
+    "continent": "Africa",
+    "region": "Rest Africa",
+    "sub-region": "Somalia"
+  },
+  {
+    "continent": "Africa",
+    "region": "Rest Africa",
+    "sub-region": "Sudan"
+  },
+  {
+    "continent": "Asia",
+    "region": "Chinese and Mongolian",
+    "sub-region": "China"
+  },
+  {
+    "continent": "Asia",
+    "region": "Chinese and Mongolian",
+    "sub-region": "Mongolia"
+  },
+  {
+    "continent": "Asia",
+    "region": "Indian Subcontinent",
+    "sub-region": "Bangladesh"
+  },
+  {
+    "continent": "Asia",
+    "region": "Indian Subcontinent",
+    "sub-region": "India"
+  },
+  {
+    "continent": "Asia",
+    "region": "Indian Subcontinent",
+    "sub-region": "Nepal"
+  },
+  {
+    "continent": "Asia",
+    "region": "Indian Subcontinent",
+    "sub-region": "Pakistan"
+  },
+  {
+    "continent": "Asia",
+    "region": "Japan",
+    "sub-region": "Japan"
+  },
+  {
+    "continent": "Asia",
+    "region": "Korea",
+    "sub-region": "Korea"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Iraq"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Israel"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Laos"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Lebanon"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Palestine"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Rest Middle Eastern"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Saudi Arabia"
+  },
+  {
+    "continent": "Asia",
+    "region": "Middle East",
+    "sub-region": "Turkey"
+  },
+  {
+    "continent": "Asia",
+    "region": "Southeast Asian",
+    "sub-region": "Cambodia"
+  },
+  {
+    "continent": "Asia",
+    "region": "Southeast Asian",
+    "sub-region": "Philippines"
+  },
+  {
+    "continent": "Asia",
+    "region": "Southeast Asian",
+    "sub-region": "Indonesia"
+  },
+  {
+    "continent": "Asia",
+    "region": "Southeast Asian",
+    "sub-region": "Malaysia"
+  },
+  {
+    "continent": "Asia",
+    "region": "Southeast Asian",
+    "sub-region": "Vietnam"
+  },
+  {
+    "continent": "Asia",
+    "region": "Thailand",
+    "sub-region": "Thailand"
+  },
+  {
+    "continent": "Australasia",
+    "region": "Australia",
+    "sub-region": "Australia"
+  },
+  {
+    "continent": "Australasia",
+    "region": "Australia",
+    "sub-region": "New Zealand"
+  },
+  {
+    "continent": "Europe",
+    "region": "Belgium",
+    "sub-region": "Belgium"
+  },
+  {
+    "continent": "Europe",
+    "region": "Belgium",
+    "sub-region": "Dutch"
+  },
+  {
+    "continent": "Europe",
+    "region": "Deutschland",
+    "sub-region": "Austria"
+  },
+  {
+    "continent": "Europe",
+    "region": "Deutschland",
+    "sub-region": "Germany"
+  },
+  {
+    "continent": "Europe",
+    "region": "Deutschland",
+    "sub-region": "Switzerland"
+  },
+  {
+    "continent": "Europe",
+    "region": "Eastern European",
+    "sub-region": "Czech Republic"
+  },
+  {
+    "continent": "Europe",
+    "region": "Eastern European",
+    "sub-region": "Hungary"
+  },
+  {
+    "continent": "Europe",
+    "region": "Eastern European",
+    "sub-region": "Poland"
+  },
+  {
+    "continent": "Europe",
+    "region": "Eastern European",
+    "sub-region": "Rest Eastern European"
+  },
+  {
+    "continent": "Europe",
+    "region": "Eastern European",
+    "sub-region": "Russia"
+  },
+  {
+    "continent": "Europe",
+    "region": "France",
+    "sub-region": "France"
+  },
+  {
+    "continent": "Europe",
+    "region": "Greece",
+    "sub-region": "Greece"
+  },
+  {
+    "continent": "Europe",
+    "region": "Ireland",
+    "sub-region": "Ireland"
+  },
+  {
+    "continent": "Europe",
+    "region": "Italy",
+    "sub-region": "Italy"
+  },
+  {
+    "continent": "Europe",
+    "region": "Scandinavia",
+    "sub-region": "Denmark"
+  },
+  {
+    "continent": "Europe",
+    "region": "Scandinavia",
+    "sub-region": "Finland"
+  },
+  {
+    "continent": "Europe",
+    "region": "Scandinavia",
+    "sub-region": "Iceland"
+  },
+  {
+    "continent": "Europe",
+    "region": "Scandinavia",
+    "sub-region": "Norway"
+  },
+  {
+    "continent": "Europe",
+    "region": "Scandinavia",
+    "sub-region": "Sweden"
+  },
+  {
+    "continent": "Europe",
+    "region": "Spanish and Portuguese",
+    "sub-region": "Portugal"
+  },
+  {
+    "continent": "Europe",
+    "region": "Spanish and Portuguese",
+    "sub-region": "Spain"
+  },
+  {
+    "continent": "Europe",
+    "region": "UK",
+    "sub-region": "England"
+  },
+  {
+    "continent": "Europe",
+    "region": "UK",
+    "sub-region": "Scotland"
+  },
+  {
+    "continent": "Europe",
+    "region": "UK",
+    "sub-region": "UK"
+  },
+  {
+    "continent": "Europe",
+    "region": "UK",
+    "sub-region": "Wales"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Caribbean",
+    "sub-region": "Cuba"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Caribbean",
+    "sub-region": "Jamaica"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Caribbean",
+    "sub-region": "Puerto Rico"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Caribbean",
+    "sub-region": "Rest Caribbean"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Central American",
+    "sub-region": "Costa Rica"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Central American",
+    "sub-region": "Guatemala"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Central American",
+    "sub-region": "Honduras"
+  },
+  {
+    "continent": "Latin America",
+    "region": "Mexico",
+    "sub-region": "Mexico"
+  },
+  {
+    "continent": "Latin America",
+    "region": "South America",
+    "sub-region": "Argentina"
+  },
+  {
+    "continent": "Latin America",
+    "region": "South America",
+    "sub-region": "Brazil"
+  },
+  {
+    "continent": "Latin America",
+    "region": "South America",
+    "sub-region": "Chile"
+  },
+  {
+    "continent": "Latin America",
+    "region": "South America",
+    "sub-region": "Colombia"
+  },
+  {
+    "continent": "Latin America",
+    "region": "South America",
+    "sub-region": "Ecuador"
+  },
+  {
+    "continent": "Latin America",
+    "region": "South America",
+    "sub-region": "Peru"
+  },
+  {
+    "continent": "Latin America",
+    "region": "South America",
+    "sub-region": "Venezuela"
+  },
+  {
+    "continent": "North America",
+    "region": "Canada",
+    "sub-region": "Canada"
+  },
+  {
+    "continent": "North America",
+    "region": "US",
+    "sub-region": "US"
+  }
+]
