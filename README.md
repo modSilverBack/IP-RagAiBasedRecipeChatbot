@@ -1,160 +1,131 @@
-# RecipeBot: Named Entity Recognition-powered Recipe Chatbot
 
-## Overview
 
-RecipeBot is an intelligent chatbot system designed to help users discover and understand recipes from around the world. By leveraging a custom-trained BERT Named Entity Recognition (NER) model, a structured recipe database (RecipeDB), and a locally-hosted DeepSeek R1 language model, RecipeBot can process natural language queries and provide relevant recipe information.
+# RecipeBot: a RAG chatbot using NER and RecipeDb API
 
-The system extracts key entities from user queries (ingredients, cooking processes, nutritional requirements, etc.), retrieves matching recipes from a comprehensive database, and generates helpful responses using a Retrieval-Augmented Generation (RAG) approach.
+## Summary 
+
+RecipeBot is a RAG (Retrieval-Augmented Generation) chatbot, meaning it uses a pretrained LLM, but instead of just passing in the query, it also attaches more information, which is most likely to contain the answer to the query. In RecipeBot, we are doing NER on the query to fill in the fields of the RecipeDb API and attach the API response and web-parsed information from the URL in the API response. We are using RecipeDb as the main source of information, and the chatbot is guided to only answer related questions through RecipeDb.
 
 ## Key Features
 
-- **Custom BERT NER Model**: Trained to recognize recipe-specific entities such as ingredients, cooking processes, nutritional values, and regional cuistures
-- **Structured Query Generation**: Converts natural language queries into structured API requests
-- **Local LLM Integration**: Runs DeepSeek R1 1.5B model locally via Ollama for efficient processing
-- **Web Parser**: Extracts detailed ingredient information from recipe URLs
-- **Nutrition Calculation**: Performs calculations to determine nutrition per serving
-- **Professional Response Generation**: Creates concise, helpful answers with a professional tone
+1. **BERT NER Model** finetuned to recognize the RecipeDb API fields.
+  - **Custom Dataset of 6896** examples used for finetuning the BERT model.
+  - **Custom Vocab of 2497** words added to the BERT Tokenizer.
+3. **RecipeDb API** response is called from the fields filled by the NER model.
+4. **Local LLM**, Deepseek R1 1.5B was run locally during the making of this project.
+5. **Web Parser**, the Selenium Python library is used to parse the URL in the API responses.
+6. **Professional Response Generation**, With the query, the API response, and web information, a prompt is passed to the LLM, which guides it to give professional and relevant answers. 
 
-## System Architecture
+## RAG Architecture
 
 ```
 User Query → BERT NER Model → Structured Query Object → RecipeDB API →
-Web Parser (for ingredient details) → RAG Prompt Engineering → DeepSeek R1 LLM → Response
+Web Parser → RAG Prompt Engineering → DeepSeek R1 LLM → Response
 ```
 
 ## Project Structure
 
-```
-project/
-├── _pycache_/                   # Python cache files
-├── bert_ner_model/              # BERT NER model files
-├── datasets/                    # Training datasets
-│   ├── con_reg_sub_dataset.json
-│   ├── cooking_process_dataset.json
-│   ├── diverse_manual_dataset.json
-│   ├── ingredient_dataset.json
-│   ├── noun_con_reg_sub_dataset.json
-│   ├── nutrition_dataset.json
-│   ├── nutrition_manual_dataset.json
-│   ├── recipe_dataset.json
-│   ├── recipe_manual_dataset.json
-│   ├── utensil_dataset.json
-│   └── utensil_manual_dataset.json
-├── datasets_create/             # Scripts to create datasets
-├── fillers/                     # JSON fillers for data processing
-├── manual_datasets/             # Manually created datasets
-├── templates/                   # JSON templates
-├── vocab/                       # Vocabulary files for NER model
-│   ├── con_reg_sub_vocab.json
-│   ├── cooking_process_vocab.json
-│   ├── ingredient_vocab.json
-│   ├── noun_con_sub_vocab.json
-│   ├── recipe_vocab.json
-│   └── utensil_vocab.json
-├── bert_ner.py                  # BERT NER model implementation
-├── label_to_id.json             # Label to ID mapping
-├── main.py                      # Main application entry point
-├── README.md                    # This file
-├── request.py                   # API request handler
-├── spacy_ner.py                 # SpaCy NER implementation
-├── test_bert_ner.py             # Testing script for BERT NER
-├── test_spacy_ner.py            # Testing script for SpaCy NER
-├── testing_aliner_spacy.py      # Testing script for SpaCy aliner
-└── web_parser.py                # Parser for extracting data from recipe websites
-```
+- **Directories**
+  1. **manual datasets** have files containing training examples (220 in total) that are manually annotated and a Python script to convert them to a suitable format for BERT. Different files have examples for different types of API fields. eg. recipe_manual.json have examples most focused on the recipe_title API field.
+  2. **templates** have different files containing training example templates for particular API fields. For example, con_sub_reg_template.json has templates for continent, sub-region, region, and all combinations of them. A template looks like "Which dish is popular in [continent] cuisine?" where [continent] can be replaced with any continent, and it will become a valid training example. 
+  3. **fillers** have different files containing the filler data to populate the templates and make training examples. For example, con_sub_reg_filler.json has a list of all valid continents, sub-regions, and regions for the recipeDb API.
+  4. **vocab** has files that have a list of words that are being added to the vocabulary of the BERT Tokenizer for better NER. For example, cooking_process.json has a vocabulary related to cooking processes.
+  5. **dataset_create** has the Python script to make training examples using templates and fillers, and put them in the datasets directory(create if it doesn't exist).
+- **Files**
+  1. **bert_ner.py** concatinates all vocab and adds it to the BERT Tokenizer, concatinates all the training examples and trains the BERT model and saves it in directory bert_ner_model.
+  2. **requests.py** gets the API response.
+  3. **test_bert.py** has the code for testing the BERT NER model against fixed 20 examples. 
+  4. **web_parser.py** gets the information form the URL that are there in the API responses.
+  5. **main** the pipeline of the RAG chatbot is implimented here.
+  6. **spacy_ner.py** we also tried spacy NER model (it was not up to mark).
+  7. **test_spacey_ner.py** testing spacy NER model against same fixed 20 examples.
+  8. **testing_gliner_spacy.py** we also tried the pretrained gliner spacy ner model (it was not up to mark).
+
 
 ## Technical Details
 
-### NER Model Training
+### NER fields
 
-The system uses a custom BERT-based Named Entity Recognition model trained on domain-specific datasets for:
-- Ingredients
-- Cooking processes
-- Continents, regions, and sub-regions
-- Recipe titles
-- Utensils
-- Nutritional requirements (calories, carbohydrates, protein, fat)
+```
+{
+ "O": 0,
+ "B-CARBOHYDRATES_MAX": 1,
+ "I-CARBOHYDRATES_MAX": 2,
+ "B-CARBOHYDRATES_MIN": 3,
+ "I-CARBOHYDRATES_MIN": 4,
+ "B-CONTINENT": 5,
+ "I-CONTINENT": 6,
+ "B-COOKING_PROCESS": 7,
+ "I-COOKING_PROCESS": 8,
+ "B-ENERGY_MAX": 9,
+ "I-ENERGY_MAX": 10,
+ "B-ENERGY_MIN": 11,
+ "I-ENERGY_MIN": 12,
+ "B-FAT_MAX": 13,
+ "I-FAT_MAX": 14,
+ "B-FAT_MIN": 15,
+ "I-FAT_MIN": 16,
+ "B-INGREDIENT_NOT_USED": 17,
+ "I-INGREDIENT_NOT_USED": 18,
+ "B-INGREDIENT_USED": 19,
+ "I-INGREDIENT_USED": 20,
+ "B-PROTEIN_MAX": 21,
+ "I-PROTEIN_MAX": 22,
+ "B-PROTEIN_MIN": 23,
+ "I-PROTEIN_MIN": 24,
+ "B-RECIPE_TITLE": 25,
+ "I-RECIPE_TITLE": 26,
+ "B-REGION": 27,
+ "I-REGION": 28,
+ "B-SUB_REGION": 29,
+ "I-SUB_REGION": 30,
+ "B-UTENSIL": 31,
+ "I-UTENSIL": 32
+}
+```
 
-The model can identify multiple entity types, including:
-- B-CONTINENT
-- B-REGION
-- B-SUB_REGION
-- B-RECIPE_TITLE
-- B-INGREDIENT_USED
-- B-INGREDIENT_NOT_USED
-- B-COOKING_PROCESS
-- B-UTENSIL
-- B-ENERGY_MIN/MAX
-- B-CARBOHYDRATES_MIN/MAX
-- B-FAT_MIN/MAX
-- B-PROTEIN_MIN/MAX
 
-### Query Processing Pipeline
+### RAG Prompt 
 
-1. **Entity Extraction**: The NER model extracts relevant entities from the user query
-2. **Query Object Construction**: Builds a structured query object with extracted entities
-3. **API Request**: Sends the query object to the RecipeDB API
-4. **Response Processing**: Formats the API response for the RAG prompt
-5. **LLM Generation**: Uses the DeepSeek R1 model to generate the final response
-
-### RAG Implementation
-
-The RAG prompt combines:
-- System instructions for the chatbot behavior
-- The original user query
-- The structured API response with recipe data
-- Ingredient details (from web parsing if needed)
-
-This combined context allows the LLM to generate responses that incorporate both the retrieved information and general language capabilities.
+```
+You are a chatbot for answering queries related to different recipes across the world 
+which have been mentioned in the recipeDb API. Response of the API is provided along with the list of 
+ingredients separately for each api response.
+In the API response there is a url you can give back to the user and 
+ask them to refer to those links for futher information.
+Your answer should be within 100 words. Use a professional tone while interacting with the user.
+For any question related to recipes if there is no api response attached in json format, say "That's an
+interesting question! But this specific request is a bit outside of what I can currently assist with. 
+However, I'm happy to help with something related or guide you in the right direction 
+if you'd like!".
+For questions not related to recipes, give this response- "That's an 
+interesting topic! My main focus is on helping with recipes and cooking-related questions, 
+so I might not be the best source for that. But if you have anything food-related in mind, 
+I'd love to help!". 
+After a question, give users something to do next-"If possible, suggest a topic or ask a 
+clarifying question to keep the conversation going.".
+Also while answering do the appropriate calculations to find the 
+nutrition per serving which is given as per the serving size in the API response.
+Below will be the question that is asked to the chatbot you are to function as you have
+to answer as if you are answering that question.
+```
 
 ### Local LLM Integration
 
 The system uses Ollama to run the DeepSeek R1 1.5B model locally, providing:
-- Lower latency responses
-- No external API costs
-- Privacy-preserving operation
+1. Lower latency responses
+2. No external API costs
+3. Privacy-preserving operation
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/recipebot.git
-cd recipebot
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Make sure Ollama is installed and running
-# https://ollama.ai/download
-
-# Pull the DeepSeek model
-ollama pull deepseek-r1:1.5b
-
-# Set up environment variables (if needed)
-cp .env.example .env
-# Edit .env file with your configuration
-```
-
-## Usage
-
-### Running the Bot
-
-```python
-from main import exec_rag
-
-# Ask a recipe-related question
-query = "Suggest a recipe which involves whisking and have less than 700 cal."
-response, api_data = exec_rag(query)
-print(response)
-```
+**NOTE**: Use of a better LLM will improve the chatbot greatly as the 1.5B model is coming short on many applications, like not understanding the RAG prompt and hallucinating during reasoning. 
 
 ### Example Query and Response
 
-**Query**: "Suggest a recipe which involves whisking and have less than 700 cal."
+**Query**: "Suggest a recipe which involves whisking and has less than 700 cal."
 
 **Response**: 
 ```
-I'd recommend Veloute Sauce (Escoffier's Recipe), a classic French sauce that involves whisking and contains approximately 645.3 calories. This elegant sauce requires butter, flour, white veal stock, button mushrooms, salt, nutmeg, and white pepper. The recipe uses a whisk to combine ingredients and serves 4 quarts.
+I'd recommend Velouté Sauce (Escoffier's Recipe), a classic French sauce that involves whisking and contains approximately 645.3 calories. This elegant sauce requires butter, flour, white veal stock, button mushrooms, salt, nutmeg, and white pepper. The recipe uses a whisk to combine ingredients and serves 4 quarts.
 
 Nutrition per serving:
 Calories: 611.5 kcal
@@ -167,61 +138,18 @@ For the complete recipe and detailed instructions, check out: http://www.geniusk
 Would you like to know more about French sauces or perhaps other low-calorie recipe options?
 ```
 
-## Future Improvements
+## Future Work
 
-- **Enhanced NER Model**: 
-  - Collect more diverse training data for better entity recognition
-  - Implement active learning to improve entity identification in edge cases
-  - Explore transformer models beyond BERT for potential accuracy improvements
-  - Add support for more languages to handle international recipe queries
-
-- **Advanced Query Processing**:
-  - Implement query expansion techniques to handle synonyms and related terms
-  - Add fuzzy matching for ingredient detection
-  - Incorporate semantic understanding of cooking techniques and substitutions
-
-- **Improved Database Integration**:
-  - Expand the recipe database with more diverse cuisines and regional variations
-  - Add support for dietary restrictions (vegan, gluten-free, keto, etc.)
-  - Include seasonal recipe recommendations based on available ingredients
-
-- **User Experience**:
-  - Develop a responsive web interface with recipe cards and images
-  - Create a mobile application for on-the-go recipe assistance
-  - Implement voice input for hands-free cooking assistance
-  - Add personalization features to remember user preferences
-
-- **Enhanced Response Generation**:
-  - Fine-tune the RAG prompt for more natural conversational flow
-  - Add support for step-by-step cooking instructions
-  - Implement meal planning capabilities for weekly recipe suggestions
-  - Include smart substitution recommendations for unavailable ingredients
-
-- **Technical Improvements**:
-  - Optimize the web parser for faster ingredient extraction
-  - Implement caching for frequently requested recipes
-  - Add support for larger language models as hardware permits
-  - Create a distributed architecture for better scalability
-
-- **Additional Features**:
-  - Implement image recognition for ingredient identification
-  - Add support for recipe scaling (adjust servings)
-  - Include shopping list generation from selected recipes
-  - Develop a recommendation system based on user history
+1. The RecipeBot can be deployed to a website to enhance **User Experience** and make it more accessible.
+2. **Improve the NER model** The NER model has a lot of scope for improvement.
+3. Use of more **powerful LLM** will make RecipeBot more accurate and precise from its current status.  
 
 ## Dependencies
 
 - transformers (for BERT NER model)
 - requests
-- spacy (for alternative NER implementation)
 - Ollama (for running DeepSeek R1 locally)
-
-## License
-
-[MIT License](LICENSE)
 
 ## Acknowledgements
 
-- Thanks to the DeepSeek team for their excellent LLM
-- BERT model architecture from Google Research
-- Recipe data sources used in building RecipeDB
+All thanks to Ganesh Bagler, sir, at IIIT-D for allowing the team to work on this project's idea. The team is most thankful for the creative freedoms. 
